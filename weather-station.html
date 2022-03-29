@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Weather API</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script type="text/javascript" src="script.js"></script>
+
+
+</head>
+
+<body>
+
+	<h1>Weather Station</h1>
+
+	<!-- BUTTON BOX -->
+	<div id="choose_box">
+		<h2>Choose Your City:</h2>
+		<div id="buttons">
+			<button id="Toronto">Toronto</button>
+			<button id="Tehran">Tehran</button>
+
+		</div>
+	</div>
+
+	<!-- OUTPUT SECTION -->
+	<section id="output">
+		<!-- CITY NAME AND WEATHER ICON-->
+		<h3>
+			<span id="location"></span>
+			Local Weather:
+			<span id="icon"></span>
+		</h3>
+
+		<!-- TEMPERATURE -->
+		<p>Current temperature:
+			<span id="temperature" class="displayText"></span>
+		</p>
+
+		<!-- CONDITIONS -->
+		<p>Current conditions:
+			<span id="conditions" class="displayText"></span>
+		</p>
+
+		<!---->
+		<p>Current Humidity:
+			<span id="humidity" class="displayText"></span>
+		</p>
+
+
+	</section>
+
+</body>
+
+</html>
